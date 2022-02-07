@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Game</title>
+    <link href="game.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="game.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="over" style="display:none">
+            <div class="over_text">
+                <span class="over_title">游戏结束</span>
+                <div class="over_point"></div>
+                <div class="over_select" style="margin-top: 5%;">返回界面</div>
+                <div class="over_select">重新开始</div>
+            </div>
+        </div>
+        <div class="name">
+            Stay on the ground
+        </div>
+        <div class="welcome">
+            <div class="choose">
+                <img src="img/car.png" class="logo">
+                <div class="select">开始游戏</div>
+                <div class="select">游戏设置</div>
+                <div class="select">难度：<strong class="level"></strong></div>
+            </div>
+        </div>
+        <div class="begin">
+            <div class="tip">
+                <span class="diff"></span>
+                <span class="point"></span>
+                <span class="process"></span>
+            </div>
+            <img class="car" src="img/car.png">
+        </div>
+    </div>
+</body>
+</html>
