@@ -5,3 +5,8 @@
 #### 技术栈：HTML5+CSS3+Javascript+JQuery
 
 ##### 附言：练手项目，还有许多需要优化的地方
+
+##### 游戏截图：
+![Image text](img/first.png)
+![Image text](img/second.png)
+![Image text](img/third.png)
